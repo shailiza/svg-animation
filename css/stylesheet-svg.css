@@ -5,17 +5,6 @@
 
 }
 
-*,
-*:after,
-*:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-}
-
-
 
 .clearfix:before,
 .clearfix:after {
@@ -50,11 +39,11 @@ body {
 #stage {
 	background-color: #fff;
 	width: 862px;
-	height: 950px;
+	height: 945px;
 	margin: auto;
 	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
-  	-moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
-  	box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
 }
 
 
@@ -104,7 +93,7 @@ body {
     transform: scaleY(1); } }
 
 
-    /*grow-x*/     
+/*grow-x*/     
 
 @-moz-keyframes grow-x {
   0% {
@@ -153,9 +142,6 @@ body {
 }
 
 
-
-
-
 .svgLoaded #background{
   -webkit-animation: grow-y 0.1s ease-in-out 1s;
   -moz-animation: grow-y 0.1s ease-in-out 1s;
@@ -170,7 +156,6 @@ body {
 }
 
 
-
 #citybcg {
 	  webkit-animation: grow-x 0.2s ease-in-out 1s;
   -moz-animation: grow-x 0.2s ease-in-out 1s;
@@ -182,7 +167,6 @@ body {
   -ms-animation-fill-mode: backwards;
   -o-animation-fill-mode: backwards;
   animation-fill-mode: both;  
-
 }
 
 
@@ -338,7 +322,6 @@ webkit-animation: fadeIn 0.9s ease-in-out 2.5s;
   -ms-animation-fill-mode: backwards;
   -o-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
-
 }
 
 #wood-head, #wood-logo {
@@ -352,7 +335,6 @@ webkit-animation: fadeIn 0.9s ease-in-out 2.5s;
   -ms-animation-fill-mode: backwards;
   -o-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
-
 }
 
 #total {
@@ -366,7 +348,6 @@ webkit-animation: fadeIn 0.9s ease-in-out 2.5s;
   -ms-animation-fill-mode: backwards;
   -o-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
-
 }
 
 /*hover text before*/
@@ -410,6 +391,3 @@ webkit-animation: fadeIn 0.9s ease-in-out 2.5s;
 #wood-planing:hover #wood-hover {
 	opacity: 1;
 }
-
-
-
