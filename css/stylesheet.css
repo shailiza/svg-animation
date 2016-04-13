@@ -1,0 +1,415 @@
+
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+body {
+	margin: 0;
+  	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	font-size: 12px;
+}
+
+.container {
+	padding: 0 50px;
+	padding-left: 15px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#stage {
+	background-color: #fff;
+	width: 862px;
+	height: 950px;
+	margin: auto;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
+  	-moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
+  	box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
+}
+
+
+/*grow-y*/ 
+
+@-moz-keyframes grow-y {
+  0% {
+    -moz-transform: scaleY(0);
+    transform: scaleY(0); }
+
+  100% {
+    -moz-transform: scaleY(1);
+    transform: scaleY(1); } }
+
+@-webkit-keyframes grow-y {
+  0% {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0); }
+
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1); } }
+
+@-o-keyframes grow-y {
+  0% {
+    -o-transform: scaleY(0);
+    transform: scaleY(0); }
+
+  100% {
+    -o-transform: scaleY(1);
+    transform: scaleY(1); } }
+
+@-ms-keyframes grow-y {
+  0% {
+    -ms-transform: scaleY(0);
+    transform: scaleY(0); }
+
+  100% {
+    -ms-transform: scaleY(1);
+    transform: scaleY(1); } }
+
+@keyframes grow-y {
+  0% {
+    transform: scaleY(0); }
+
+  100% {
+    transform: scaleY(1); } }
+
+
+    /*grow-x*/     
+
+@-moz-keyframes grow-x {
+  0% {
+    -moz-transform: scaleX(0);
+    transform: scaleX(0); }
+
+  100% {
+    -moz-transform: scaleX(1);
+    transform: scaleX(1); } }
+
+@-webkit-keyframes grow-x {
+  0% {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0); }
+
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); } }
+
+@-o-keyframes grow-x {
+  0% {
+    -o-transform: scaleX(0);
+    transform: scaleX(0); }
+
+  100% {
+    -o-transform: scaleX(1);
+    transform: scaleX(1); } }
+
+@-ms-keyframes grow-x {
+  0% {
+    -ms-transform: scaleX(0);
+    transform: scaleX(0); }
+
+  100% {
+    -ms-transform: scaleX(1);
+    transform: scaleX(1); } }
+
+@keyframes grow-x {
+  0% {
+    transform: scaleX(0); 
+	}
+
+  100% {
+    transform: scaleX(1); 
+    } 
+}
+
+
+
+
+
+.svgLoaded #background{
+  -webkit-animation: grow-y 0.1s ease-in-out 1s;
+  -moz-animation: grow-y 0.1s ease-in-out 1s;
+  -ms-animation: grow-y 0.1s ease-in-out 1s;
+  -o-animation: grow-y 0.1s ease-in-out 1s;
+  animation: grow-y 0.1s ease-in-out 1s;
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  -ms-animation-fill-mode: backwards;
+  -o-animation-fill-mode: backwards;
+  animation-fill-mode: both; 
+}
+
+
+
+#citybcg {
+	  webkit-animation: grow-x 0.2s ease-in-out 1s;
+  -moz-animation: grow-x 0.2s ease-in-out 1s;
+  -ms-animation: grow-x 0.2s ease-in-out 1s;
+  -o-animation: grow-x 0.2s ease-in-out 1s;
+  animation: grow-x 0.4s ease-in-out 1s;
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  -ms-animation-fill-mode: backwards;
+  -o-animation-fill-mode: backwards;
+  animation-fill-mode: both;  
+
+}
+
+
+#mountains, #mountain1 {
+  -webkit-animation: grow-y 0.3s ease-in-out 1.75s;
+  -moz-animation: grow-y 0.3s ease-in-out 1.75s;
+  -ms-animation: grow-y 0.3s ease-in-out 1.75s;
+  -o-animation: grow-y 0.3s ease-in-out 1.75s;
+  animation: grow-y 0.3s ease-in-out 1.75s;
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  -ms-animation-fill-mode: backwards;
+  -o-animation-fill-mode: backwards;
+  animation-fill-mode: backwards; 
+}
+
+#mountain2 {
+  -webkit-animation: grow-y 0.3s ease-in-out 1.75s;
+  -moz-animation: grow-y 0.3s ease-in-out 1.75s;
+  -ms-animation: grow-y 0.3s ease-in-out 1.75s;
+  -o-animation: grow-y 0.3s ease-in-out 1.75s;
+  animation: grow-y 0.4s ease-in-out 1.9s;
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  -ms-animation-fill-mode: backwards;
+  -o-animation-fill-mode: backwards;
+  animation-fill-mode: backwards; 
+}
+
+
+#mountain3 {
+  -webkit-animation: grow-y 0.5s ease-in-out 2s;
+  -moz-animation: grow-y 0.5s ease-in-out 2s;
+  -ms-animation: grow-y 0.5s ease-in-out 2s;
+  -o-animation: grow-y 0.5s ease-in-out 2s;
+  animation: grow-y 0.5s ease-in-out 2s;
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  -ms-animation-fill-mode: backwards;
+  -o-animation-fill-mode: backwards;
+  animation-fill-mode: backwards; 
+}
+
+#mountain4 {
+  webkit-animation: grow-y 0.4s ease-in-out 1.9s;
+  -moz-animation: grow-y 0.4s ease-in-out 1.9s;
+  -ms-animation: grow-y 0.4s ease-in-out 1.9s;
+  -o-animation: grow-y 0.4s ease-in-out 1.9s;
+  animation: grow-y 0.4s ease-in-out 1.9s;
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  -ms-animation-fill-mode: backwards;
+  -o-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;  
+}
+
+#foreground, #foreground {
+webkit-animation: grow-x 0.5s ease-in-out 1s;
+  -moz-animation: grow-x 0.5s ease-in-out 1s;
+  -ms-animation: grow-x 0.5s ease-in-out 1s;
+  -o-animation: grow-x 0.5s ease-in-out 1s;
+  animation: grow-x 0.5s ease-in-out 1s;
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  -ms-animation-fill-mode: backwards;
+  -o-animation-fill-mode: backwards;
+  animation-fill-mode: both;
+}
+
+/*content*/
+
+@keyframes fadeIn { 
+	from { opacity:0;  } 
+	to { opacity:1; } 
+}
+
+@-webkit-keyframes fadeIn { 
+	from { opacity:0; opacity: 1\9; /* IE9 only */ } 
+	to { opacity:1; } 
+}
+
+@-moz-keyframes fadeIn {
+ 	from { opacity:0; opacity: 1\9; /* IE9 only */ } 
+ 	to { opacity:1; } 
+ }
+
+
+#heading {
+	-webkit-animation: grow-x 0.8s ease-in-out 1s;
+  -moz-animation: grow-x 0.0.8s ease-in-out 1s;
+  -ms-animation: grow-x 0.0.8s ease-in-out 1s;
+  -o-animation: grow-x 0.8s ease-in-out 1s;
+  animation: grow-x 0.8s ease-in-out 2s;
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  -ms-animation-fill-mode: backwards;
+  -o-animation-fill-mode: backwards;
+  animation-fill-mode: both; 
+
+}
+
+#refractory-head, #refractory-logo {
+webkit-animation: fadeIn 0.9s ease-in-out 2.5s;
+  -moz-animation: fadeIn 0.9s ease-in-out 2.5s;
+  -ms-animation: fadeIn 0.9s ease-in-out 2.5s;
+  -o-animation: fadeIn 0.9s ease-in-out 2.5s;
+  animation: fadeIn 0.9s ease-in-out 2.5s;
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  -ms-animation-fill-mode: backwards;
+  -o-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+}
+
+
+#grainmill-head, #grainmill-logo {
+	webkit-animation: fadeIn 0.7s ease-in-out 3s;
+  -moz-animation: fadeIn 0.7s ease-in-out 3s;
+  -ms-animation: fadeIn 0.7s ease-in-out 3s;
+  -o-animation: fadeIn 0.7s ease-in-out 3s;
+  animation: fadeIn 0.7s ease-in-out 3s;
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  -ms-animation-fill-mode: backwards;
+  -o-animation-fill-mode: backwards;
+  animation-fill-mode: both;
+
+}
+
+
+#furniture-head, #furniture-logo {
+	webkit-animation: fadeIn 0.8s ease-in 3.5s;
+  -moz-animation: fadeIn 0.8s ease-in 3.5s;
+  -ms-animation: fadeIn 0.8s ease-in 3.5s;
+  -o-animation: fadeIn 0.8s ease-in 3.5s;
+  animation: fadeIn 0.8s ease-in 3.5s;
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  -ms-animation-fill-mode: backwards;
+  -o-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+
+}
+
+#plastic-head, #plastic-logo {
+	webkit-animation: fadeIn 0.9s ease-in-out 4.0s;
+  -moz-animation: fadeIn 0.9s ease-in-out 4.0s;
+  -ms-animation: fadeIn 0.9s ease-in-out 4.0s;
+  -o-animation: fadeIn 0.9s ease-in-out 4.0s;
+  animation: fadeIn 0.9s ease-in-out 4.0s;
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  -ms-animation-fill-mode: backwards;
+  -o-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+
+}
+
+#wood-head, #wood-logo {
+	webkit-animation: fadeIn 1s ease-in-out 4.5s;
+  -moz-animation: fadeIn 1s ease-in-out 4.5s;
+  -ms-animation: fadeIn 1s ease-in-out 4.5s;
+  -o-animation: fadeIn 1s ease-in-out 4.5s;
+  animation: fadeIn 1s ease-in-out 4.5s;
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  -ms-animation-fill-mode: backwards;
+  -o-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+
+}
+
+#total {
+	webkit-animation: fadeIn 1.5s ease-in-out 4.5s;
+  -moz-animation: fadeIn 1.5s ease-in-out 4.5s;
+  -ms-animation: fadeIn 1.5s ease-in-out 4.5s;
+  -o-animation: fadeIn 1.5s ease-in-out 4.5s;
+  animation: fadeIn 1.5s ease-in-out 4.5s;
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  -ms-animation-fill-mode: backwards;
+  -o-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+
+}
+
+/*hover text before*/
+#refractory-hover {
+	opacity: 0.0; 
+}
+
+#grainmill-hover {
+	opacity: 0.0; 
+}
+
+#furniture-hover {
+	opacity: 0.0; 
+}
+
+#plastic-hover {
+	opacity: 0.0;
+}
+
+#wood-hover {
+	opacity: 0.0;
+}
+
+/*hover text after*/
+#refractory:hover #refractory-hover {
+	opacity: 1; 
+}
+
+#grainmill:hover #grainmill-hover {
+	opacity: 1;
+}
+
+#furniture:hover #furniture-hover {
+	opacity: 1;
+}
+
+#plastic:hover #plastic-hover {
+	opacity: 1;
+}
+
+#wood-planing:hover #wood-hover {
+	opacity: 1;
+}
+
+
+
